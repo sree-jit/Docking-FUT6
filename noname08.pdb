@@ -1,0 +1,30 @@
+HEADER    noname08
+HETATM    1  C   UNK     0      17.160  -5.684   0.000  0.00  0.00           C  
+HETATM    2  C   UNK     0      18.312  -5.019   0.000  0.00  0.00           C  
+HETATM    3  C   UNK     0      19.463  -5.684   0.000  0.00  0.00           C  
+HETATM    4  C   UNK     0      20.615  -5.019   0.000  0.00  0.00           C  
+HETATM    5  N   UNK     0      20.754  -3.696   0.000  0.00  0.00           N  
+HETATM    6  N   UNK     0      21.830  -5.560   0.000  0.00  0.00           N  
+HETATM    7  C   UNK     0      22.720  -4.572   0.000  0.00  0.00           C  
+HETATM    8  N   UNK     0      22.055  -3.420   0.000  0.00  0.00           N  
+HETATM    9  S   UNK     0      24.043  -4.711   0.000  0.00  0.00           S  
+HETATM   10  C   UNK     0      22.107  -6.861   0.000  0.00  0.00           C  
+HETATM   11  C   UNK     0      17.160  -7.014   0.000  0.00  0.00           C  
+HETATM   12  C   UNK     0      18.312  -7.679   0.000  0.00  0.00           C  
+HETATM   13  C   UNK     0      19.463  -7.014   0.000  0.00  0.00           C  
+HETATM   14 Cl   UNK     0      16.008  -7.679   0.000  0.00  0.00          Cl  
+CONECT    1    2   11   11
+CONECT    2    1    3    3
+CONECT    3    2    2    4   13
+CONECT    4    3    5    5    6
+CONECT    5    4    4    8
+CONECT    6    4    7   10
+CONECT    7    6    8    9    9
+CONECT    8    5    7
+CONECT    9    7    7
+CONECT   10    6
+CONECT   11    1    1   12   14
+CONECT   12   11   13   13
+CONECT   13   12   12    3
+CONECT   14   11
+END
